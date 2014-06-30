@@ -21,7 +21,8 @@ clicking links, then expecting that the page has the correct content.
 
 ## Getting Help
 
-* [Capybara documentation and examples] (https://github.com/gSchool/acceptance-tests-with-sinatra)
+* [Capybara Example] (https://github.com/gSchool/acceptance-tests-with-sinatra)
+* [Capybara Docs](https://github.com/jnicklas/capybara)
 * [Sinatra README](http://www.sinatrarb.com/intro.html)
 * [Sinatra Docs](http://www.sinatrarb.com/documentation.html)
 * [HTTP Verbs](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods)
