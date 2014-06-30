@@ -17,7 +17,7 @@ clicking links, then expecting that the page has the correct content.
 1. Start the first story. Write an acceptance that covers the requirements of the story
 1. Write the code to make the story/test pass. Just get it to work and don't worry too much about how it looks or feels.
 1. Refactor if necessary.
-1. Repeat for the remaining stories
+1. Repeat 4-6 for the remaining stories
 
 ## Getting Help
 
