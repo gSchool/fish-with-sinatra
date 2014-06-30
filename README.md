@@ -15,3 +15,8 @@ clicking links.
 1. Import the stories into a new Pivotal Tracker project
 1. Start the first story. Write an acceptance that covers the requirements of the story
 1. Repeat for the remaining stories
+
+## Getting Help
+
+[This] (https://github.com/gSchool/acceptance-tests-with-sinatra) repo has links to
+Capybara documentation and examples.
