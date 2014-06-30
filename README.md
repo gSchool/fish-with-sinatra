@@ -15,6 +15,8 @@ clicking links, then expecting that the page has the correct content.
 1. Run `bundle install` from the project directory
 1. Import the stories into a new Pivotal Tracker project
 1. Start the first story. Write an acceptance that covers the requirements of the story
+1. Write the code to make the story/test pass. Just get it to work and don't worry too much about how it looks or feels.
+1. Refactor if necessary.
 1. Repeat for the remaining stories
 
 ## Getting Help
