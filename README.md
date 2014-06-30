@@ -21,5 +21,6 @@ clicking links, then expecting that the page has the correct content.
 
 ## Getting Help
 
-[This] (https://github.com/gSchool/acceptance-tests-with-sinatra) repo has links to
-Capybara documentation and examples.
+* [Capybara documentation and examples] (https://github.com/gSchool/acceptance-tests-with-sinatra)
+* [Sinatra README](http://www.sinatrarb.com/intro.html)
+* [Sinatra Docs](http://www.sinatrarb.com/documentation.html)
