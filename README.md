@@ -7,7 +7,7 @@ free to lay out the app however you want. Please remember to use semantic HTML!
 The real focus of this exercise is to practice writing acceptance tests with Capybara.
 For each story, write an acceptance test that interacts with the site just like a
 user would. For this app, that will mainly involve visiting pages by their URL and
-clicking links.
+clicking links, then expecting that the page has the correct content.
 
 ## Setup
 
