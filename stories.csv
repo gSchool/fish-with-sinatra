@@ -1,16 +1,16 @@
 Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
-74110646,User can get to homepage,"",1,"Jun 23, 2014","Jun 29, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110646,User can get to homepage,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I enter localhost:3000 in my browser
 Then I see the word ""Fish Homepage""
 
 remember to write a test!",https://www.pivotaltracker.com/story/show/74110646,
-74110696,User can view a list of fish,"",1,"Jun 23, 2014","Jun 29, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110696,User can view a list of fish,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I visit ""/""
 Then I should see a list of three fish
 
 
 choose any fish you want",https://www.pivotaltracker.com/story/show/74110696,
-74110724,User can view details for a fish,"",1,"Jun 23, 2014","Jun 29, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110724,User can view details for a fish,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I visit ""/""
 And I click on a fish
 Then I should see details about a fish
@@ -19,12 +19,26 @@ Then I should see details about a fish
 
 * don't forget to write a test!
 * wikipedia is a good place to go to get fish facts",https://www.pivotaltracker.com/story/show/74110724,
-74110754,User can return to the home page,"",1,"Jun 23, 2014","Jun 29, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74131744,User can visit a fish's wikipedia page,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 30, 2014",,,Hunter Gillane,"As a User
+When I visit a fish page
+Then I can click a link that goes to the fish's wikipedia page",https://www.pivotaltracker.com/story/show/74131744,
+74110754,User can return to the home page,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I click a fish
 And the click ""Homepage""
 Then I should be back on the homepage",https://www.pivotaltracker.com/story/show/74110754,
-74110736,Exercise Goal,"",1,"Jun 23, 2014","Jun 29, 2014",release,,unstarted,"Jun 29, 2014",,,Hunter Gillane,,https://www.pivotaltracker.com/story/show/74110736,
-74110748,User can create a new fish,"",1,"Jun 23, 2014","Jun 29, 2014",feature,3,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110736,Exercise Goal,"",1,"Jun 30, 2014","Jul 6, 2014",release,,unstarted,"Jun 29, 2014",,,Hunter Gillane,,https://www.pivotaltracker.com/story/show/74110736,
+74131500,Pass data into your ERB templates instead of hard coding the fish data in the templates,"",1,"Jun 30, 2014","Jul 6, 2014",feature,2,unstarted,"Jun 30, 2014",,,Hunter Gillane,"pass in all the fish data shown on the fish page
+
+so your ERB templates would have something that looks like
+
+<h1><%= fish_name %></h1>
+
+instead of 
+
+<h1>Grouper</h1>
+",https://www.pivotaltracker.com/story/show/74131500,
+74125494,Fish should share the same ERB template,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jun 30, 2014",,,Hunter Gillane,"now that you are passing data in, you can share the same ERB template between all the different types of fish",https://www.pivotaltracker.com/story/show/74125494,
+74110748,User can create a new fish,"",2,"Jul 7, 2014","Jul 13, 2014",feature,3,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I visit ""/""
 And I click ""New Fish""
 And I fill in the fish information
@@ -32,11 +46,11 @@ And I click ""Create Fish""
 Then I should see a page with the new fish information
 And when I click ""Homepage""
 Then I should see the fish listed",https://www.pivotaltracker.com/story/show/74110748,
-74110784,User can search fish,"",1,"Jun 23, 2014","Jun 29, 2014",feature,2,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110784,User can search fish,"",2,"Jul 7, 2014","Jul 13, 2014",feature,2,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I visit ""/""
 And I enter a fish name into the search field
 And I click ""Search""
 Then I should be taken to the fish page whose name matches the search query",https://www.pivotaltracker.com/story/show/74110784,
-74110810,User sees not found page when searching for a fish that doesn't exist,"",2,"Jun 30, 2014","Jul 6, 2014",feature,2,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
+74110810,User sees not found page when searching for a fish that doesn't exist,"",2,"Jul 7, 2014","Jul 13, 2014",feature,2,unstarted,"Jun 29, 2014",,,Hunter Gillane,"As a user
 When I search for a fish that doesn't exist
 Then I should see a ""Not Found"" page",https://www.pivotaltracker.com/story/show/74110810,
